@@ -1,3 +1,10 @@
+@media (max-width: 758px) {
+    .search {
+        font-size: .6em;
+        margin-top: 6px;
+    }
+}
+
 .sidebar_title {
     padding: 15px 5px 10px 5px;
 }
@@ -17,20 +24,20 @@
     padding: 3px 5px 5px 5px;
 }
 
-.iw_title {
-    font-size: 1.3em;
+.title {
+    font-size: 1.5em;
 }
 
-.iw_subtitle {
+.subtitle {
     font-size: 1em;
 }
 
-.iw_address_title {
+.address_title {
     margin-bottom: 2px;
     font-size: .95em;
 }
 
-.iw_address {
+.address {
     margin-bottom: 0;
     font-size: .9em;
 }
@@ -45,12 +52,5 @@
 
 .search {
     width: 100%;
-    font-size: .9em;
-}
-
-@media (max-width: 768px) {
-    .search {
-        font-size: .7em;
-        margin-top: 5px;
-    }
+    font-size: 1em;
 }

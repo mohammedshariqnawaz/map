@@ -23,7 +23,7 @@
             </main>
             <nav class="col-2 collapse bg-inverse pt-2 h-100 sidebar_width" id="sidebar">
                 <h4 class="sidebar_title text-white">Neighborhood Map</h4>
-                <input class="search" data-bind="textInput: searchOption, valueUpdate: 'afterkeydown'" placeholder="Search Locations...">
+                <input class="search" data-bind="textInput: searchOption, valueUpdate: 'afterkeydown'" placeholder="Search Here">
                 <hr class="sidebar_hr">
                 <ul class="nav flex-column" data-bind="foreach: myLocationsFilter">
                     <a href="#"><li class="nav-item text-white location_list" data-bind="text: title, click: $parent.populateAndBounceMarker"></li></a>
@@ -33,10 +33,10 @@
     </div>
 
     <script src="js/knockout-3.4.2.js" charset="utf-8"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="js/app.js" charset="utf-8"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBRTschOElF6NRclmCZymKOoGb0jKlNtfU&callback=initMaps" onerror="googleError()"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBBc9_0IS1GRX2D4tPu3Sww586uw8QSeI0&callback=initMaps"></script>
 </body>
 </html>
